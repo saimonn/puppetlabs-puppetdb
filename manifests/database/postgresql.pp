@@ -150,7 +150,7 @@ class puppetdb::database::postgresql (
       user     => $database_username,
       password => $database_password,
       encoding => 'UTF8',
-      locale   => 'en_US.UTF-8',
+      locale   => 'C.UTF-8',
       grant    => 'all',
       port     => $port,
     }
