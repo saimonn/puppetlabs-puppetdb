@@ -63,7 +63,6 @@ describe 'puppetdb::database::postgresql', type: :class do
             grant:    'all',
             port:     params[:database_port].to_i,
             encoding: 'UTF8',
-            locale:   'en_US.UTF-8',
           )
       }
 
